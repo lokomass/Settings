@@ -13,7 +13,7 @@ export VOLUME_USB="/volumeUSB1/usbshare"
 
 # Folder
 export FOLDER_SYSTEME="${VOLUME_NAS}/Systeme"
-export FOLDER_LOG="${FOLDER_SYSTEME}/Logs"
+export FOLDER_LOGS="${FOLDER_SYSTEME}/Logs"
 export FOLDER_WEB="${VOLUME_NAS}/web"
 
 # IP
