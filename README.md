@@ -1,6 +1,6 @@
 # Settings
 
-Ce fichier a pour but de fournir des fonctions/variables aux serveurs distants.
+Ce fichier a pour but de fournir des **fonctions/variables** aux serveurs distants.
 Le code est regroupé dans un fichier unique pour réduire les accès réseau.
 
 ## Exemple
