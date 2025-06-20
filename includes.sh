@@ -19,6 +19,9 @@ export FOLDER_WEB="${VOLUME_NAS}/web"
 # IP
 export IP_NAS="192.168.100.150"
 
+# URL
+export URL_VARIABLES="http://${IP_NAS}/variables"
+
 # Fonctions
 function write_log {
 	local TIME=$(date +"%H:%M:%S")
@@ -45,6 +48,6 @@ then
 	exit 1
 elif [[ $(check_ping "${IP_NAS}") -eq 0 ]]
 then
-	source <(curl -s "http://${IP_NAS}/variables/includes.sh")
+	source <(curl -s "${URL_VARIABLES}/includes.sh")
 fi
 
