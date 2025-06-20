@@ -1,0 +1,10 @@
+{
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"keyboard.layout": "0000040C",
+	"workbench.colorTheme": "GitHub Light",
+	"workbench.colorCustomizations": {
+		"terminal.foreground": "#ffffff",
+		"terminal.background": "#f6f8fa"
+	}
+}
