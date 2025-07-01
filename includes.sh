@@ -4,6 +4,9 @@
 #                  SETTINGS                  #
 ##############################################
 
+# Mask
+umask 022
+
 # Locale
 export LANG="fr_FR.UTF-8"
 
