@@ -25,6 +25,9 @@ export IP_NAS="192.168.100.150"
 # URL
 export URL_VARIABLES="http://${IP_NAS}/variables"
 
+# LAN
+export LAN_NETWORK=$(echo "${IP_NAS}" | cut -d "." -f1-3)
+
 # Fonctions
 function write_log {
 	local TIME=$(date +"%H:%M:%S")
