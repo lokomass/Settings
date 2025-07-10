@@ -9,7 +9,7 @@ Le code est regroupé dans un fichier unique pour réduire les accès réseau.
 
 ```
 SHORT=1
-source <(curl -s "https://raw.githubusercontent.com/lokomass/settings/main/includes.sh") 2>/dev/null
+source <(curl -s "${URL_SETTINGS}") 2>/dev/null
 ```
 
 ### Full
@@ -17,7 +17,7 @@ source <(curl -s "https://raw.githubusercontent.com/lokomass/settings/main/inclu
 ```
 # Github
 ALLOWED="pve|NAS.*"
-source <(curl -s "https://raw.githubusercontent.com/lokomass/settings/main/includes.sh") 2>/dev/null
+source <(curl -s "${URL_SETTINGS}") 2>/dev/null
 if [[ "${API_ALIVE}" != "1" ]]
 then
 	exit 1
