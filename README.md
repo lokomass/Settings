@@ -9,7 +9,7 @@ Le code est regroupé dans un fichier unique pour réduire les accès réseau.
 
 ```
 SHORT=1
-source <(curl -s "https://settings.domain.ltd") 2>/dev/null
+source <(curl -sL "https://settings.domain.ltd") 2>/dev/null
 ```
 
 ### Full
@@ -17,7 +17,7 @@ source <(curl -s "https://settings.domain.ltd") 2>/dev/null
 ```
 # Github
 ALLOWED="pve|NAS.*"
-source <(curl -s "https://settings.domain.ltd") 2>/dev/null
+source <(curl -sL "https://settings.domain.ltd") 2>/dev/null
 if [[ "${API_ALIVE}" != "1" ]]
 then
 	exit 1
