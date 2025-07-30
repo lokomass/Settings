@@ -43,7 +43,7 @@ function check_ping {
 }
 
 function check_server {
-	if [[ ! -z "${1}" ]] && [[ ! "$(hostname)" =~ ^(${1})$ ]]
+	if [[ -n "${1}" ]] && [[ ! "$(hostname)" =~ ^(${1})$ ]]
 	then
 		return 1
 	fi
