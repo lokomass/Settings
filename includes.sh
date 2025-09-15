@@ -11,7 +11,7 @@ umask 022
 export LANG="fr_FR.UTF-8"
 
 # IP
-export IP_NAS="192.168.100.150"
+export IP_NAS="192.168.100.200"
 
 # Volume
 export VOLUME_NAS="/volume1"
