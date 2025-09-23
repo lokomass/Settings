@@ -1,18 +1,9 @@
 # Settings
 
-Permet de renseigner toutes les **fonctions/variables** nécessaires au fonctionnement des scripts.  
+Ce fichier a pour but de fournir des **fonctions/variables** aux serveurs distants.  
 Le code est regroupé dans un fichier unique pour réduire les accès réseau.
 
-## Exemples
-
-### Short
-
-```
-SHORT=1
-source <(curl -sL "https://settings.domain.ltd") 2>/dev/null
-```
-
-### Full
+## Exemple
 
 ```
 # Github
