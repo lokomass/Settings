@@ -39,8 +39,10 @@ then
 	exit 1
 fi
 check_ping "${IP_NAS}"
-if [[ "$?" -eq 0 ]]
+if [[ "$?" -ne 0 ]]
 then
-	source <(curl -s "${URL_VARIABLES}/includes.sh")
+	echo "Impossible de joindre NAS"
+	exit 1
 fi
+source <(curl -s "${URL_VARIABLES}/includes.sh")
 
