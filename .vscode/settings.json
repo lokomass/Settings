@@ -5,6 +5,6 @@
 	"workbench.colorTheme": "GitHub Light",
 	"workbench.colorCustomizations": {
 		"terminal.foreground": "#ffffff",
-		"terminal.background": "#f6f8fa"
+		"terminal.background": "#e3e6e8"
 	}
 }
